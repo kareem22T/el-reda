@@ -1,0 +1,104 @@
+@import './variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Diodrum Arabic", sans-serif;
+    background-color: #fff;
+    direction: rtl;
+}
+
+input, select, textarea, button {
+    font-family: "Diodrum Arabic", sans-serif;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+/* sm: ≥640px */
+@media (min-width: $sm) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+/* md: ≥768px */
+@media (min-width: $md) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+/* lg: ≥1024px */
+@media (min-width: $lg) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+/* xl: ≥1280px */
+@media (min-width: $xl) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+/* 2xl: ≥1536px */
+@media (min-width: $xxl) {
+    .container {
+        max-width: 1536px;
+    }
+}
+
+
+
+/* Light (weight 300) */
+@font-face {
+  font-family: "Diodrum Arabic";
+  src: local("Diodrum Arabic Light"),
+       url("./../fonts/alfont_com_AlFont_com_DiodrumArabic-Light-1.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Regular (weight 400) */
+@font-face {
+  font-family: "Diodrum Arabic";
+  src: local("Diodrum Arabic Regular"),
+       url("./../fonts/alfont_com_AlFont_com_DiodrumArabic-Regular-1.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Medium (weight 500) */
+@font-face {
+  font-family: "Diodrum Arabic";
+  src: local("Diodrum Arabic Medium"),
+       url("./../fonts/alfont_com_AlFont_com_DiodrumArabic-Medium-1.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Semibold (weight 600) */
+@font-face {
+  font-family: "Diodrum Arabic";
+  src: local("Diodrum Arabic Semibold"),
+       url("./../fonts/alfont_com_AlFont_com_DiodrumArabic-Semibold-1.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
