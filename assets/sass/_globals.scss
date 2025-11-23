@@ -102,3 +102,12 @@ a {
   font-style: normal;
   font-display: swap;
 }
+/* Semibold (weight 700) */
+@font-face {
+  font-family: "Diodrum Arabic";
+  src: local("Diodrum Arabic Bold"),
+       url("./../fonts/alfont_com_AlFont_com_DiodrumArabic-Bold-1.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
