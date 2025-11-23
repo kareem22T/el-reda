@@ -2217,6 +2217,28 @@ input:focus, select:focus, textarea:focus {
   background: rgba(146, 0, 144, 0.168627451);
 }
 
+.contact-page-body .main-header .container nav a:hover, .contact-page-body .our-products-2 .products-2-swipper .swiper-slide .btns button, .contact-page-body .main-header .container nav a.active, .contact-page-body .show-all, .contact-page-body .contact-section form button, .contact-page-body .news .news-slider-container .news-card h2 {
+  background-color: #000;
+}
+.contact-page-body .hero {
+  height: 150vh;
+  padding-top: 100px;
+}
+@media (max-width: 640px) {
+  .contact-page-body .hero {
+    height: 600px;
+  }
+}
+.contact-page-body .hero .container h1, .contact-page-body .news-bar ul {
+  color: #000;
+}
+.contact-page-body .news .news-slider-container .news-card, .contact-page-body .news .news-slider-container .news-card img {
+  border-color: #000;
+}
+.contact-page-body .news-bar, .contact-page-body .our-products-2 .products-2-swipper .swiper-slide .btns a {
+  background: rgba(0, 0, 0, 0.169);
+}
+
 .manure-page .main-header .container nav a:hover, .manure-page .our-products-2 .products-2-swipper .swiper-slide .btns button, .manure-page .main-header .container nav a.active, .manure-page .show-all, .manure-page .contact-section form button, .manure-page .news .news-slider-container .news-card h2 {
   background-color: #056C23;
 }
@@ -2243,6 +2265,10 @@ input:focus, select:focus, textarea:focus {
 }
 .manure-page .news-bar, .manure-page .our-products-2 .products-2-swipper .swiper-slide .btns a {
   background: rgba(5, 108, 34, 0.168627451);
+}
+
+#contactWhatsapp {
+  text-align: right;
 }
 
 /*# sourceMappingURL=main.css.map */

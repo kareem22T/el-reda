@@ -1768,6 +1768,27 @@ input, select, textarea {
         background: #9200902b;
     }
 }
+.contact-page-body {
+    .main-header .container nav a:hover, .our-products-2 .products-2-swipper .swiper-slide .btns button, .main-header .container nav a.active, .show-all, .contact-section form button, .news .news-slider-container .news-card h2 {
+        background-color: #000;
+    }
+    .hero {
+        height: 150vh;
+        padding-top: 100px;
+        @media (max-width: $sm) {
+            height: 600px;
+        }
+    }
+    .hero .container h1, .news-bar ul {
+        color: #000;
+    }
+    .news .news-slider-container .news-card, .news .news-slider-container .news-card img {
+        border-color: #000;
+    }
+    .news-bar, .our-products-2 .products-2-swipper .swiper-slide .btns a {
+        background: rgba(0, 0, 0, 0.169)
+    }
+}
 .manure-page {
     .main-header .container nav a:hover, .our-products-2 .products-2-swipper .swiper-slide .btns button, .main-header .container nav a.active, .show-all, .contact-section form button, .news .news-slider-container .news-card h2 {
         background-color: #056C23;
@@ -1796,4 +1817,8 @@ input, select, textarea {
     .news-bar, .our-products-2 .products-2-swipper .swiper-slide .btns a {
         background: #056c222b;
     }
+}
+
+#contactWhatsapp {
+    text-align: right;
 }
