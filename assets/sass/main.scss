@@ -1891,6 +1891,8 @@ input, select, textarea {
             padding: 22px;
             border-radius: 25px;
             flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
         }
         a {
             display: flex;

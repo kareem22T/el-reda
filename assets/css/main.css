@@ -99,7 +99,7 @@ a {
 @media (max-width: 640px) {
   .main-header {
     padding: 12px 2px;
-    box-shadow: 0px 7px 9.8px 0px rgba(0, 0, 0, 0.1058823529);
+    box-shadow: 0px 7px 9.8px 0px #0000001b;
     border-radius: 0 0 35px 35px;
     max-width: calc(100vw - 16px);
     margin: auto;
@@ -117,7 +117,7 @@ a {
 .main-header .container .logo {
   padding: 28px 80px;
   background-color: white;
-  box-shadow: 0px 7px 9.8px 0px rgba(0, 0, 0, 0.1058823529);
+  box-shadow: 0px 7px 9.8px 0px #0000001b;
   border-radius: 0 0 50px 50px;
 }
 @media (max-width: 1536px) {
@@ -179,7 +179,7 @@ a {
 }
 .main-header .container .toggle-menu {
   display: none;
-  background: rgba(244, 244, 244, 0.2784313725);
+  background: #f4f4f447;
   border: none;
   width: 40px;
   height: 40px;
@@ -218,8 +218,8 @@ a {
   justify-content: center;
   align-items: center;
   background-color: white;
-  box-shadow: 0px 7px 9.8px 0px rgba(0, 0, 0, 0.1058823529);
-  transition: all 0.3s ease-in;
+  box-shadow: 0px 7px 9.8px 0px #0000001b;
+  transition: all .3s ease-in;
 }
 @media (max-width: 1536px) {
   .main-header .container nav a {
@@ -262,7 +262,7 @@ a {
   }
 }
 .main-header .container nav a path {
-  transition: all 0.3s ease-in;
+  transition: all .3s ease-in;
   fill: #000;
 }
 .main-header .container nav a:hover, .main-header .container nav a.active {
@@ -361,7 +361,7 @@ a {
 
 .mobile-nav a svg {
   width: 22px !important;
-  height: 22px !important;
+  height: 22px  !important;
   flex-shrink: 0;
 }
 
@@ -393,7 +393,7 @@ body.menu-open {
 }
 
 .hero {
-  height: 100vh;
+  height: calc(100vh);
   padding-top: 220px;
   position: relative;
 }
@@ -699,7 +699,7 @@ body.menu-open {
   width: 100%;
   height: 380px;
   border-radius: 30px;
-  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 10px 15px 0px #00000033;
   object-fit: cover;
 }
 @media (max-width: 1536px) {
@@ -1115,7 +1115,7 @@ body.menu-open {
   }
 }
 .contact-section form .input-row input {
-  box-shadow: 0px 7px 19.6px 0px rgba(0, 0, 0, 0.2509803922);
+  box-shadow: 0px 7px 19.6px 0px #00000040;
   border-radius: 30px;
   font-size: 40px;
   font-weight: 600;
@@ -1292,7 +1292,7 @@ footer span {
   width: 400px;
   height: 400px;
   padding: 50px;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2509803922);
+  box-shadow: 0px 0px 20px 0px #00000040;
   border-radius: 50px;
   margin: auto;
 }
@@ -1406,7 +1406,7 @@ footer span {
 }
 .hero-2 .company-about .text {
   padding: 50px;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2509803922);
+  box-shadow: 0px 0px 20px 0px #00000040;
   border-radius: 50px;
 }
 @media (max-width: 1536px) {
@@ -1536,7 +1536,7 @@ footer span {
 }
 .our-products-2 .products-2-swipper .swiper-slide {
   width: 360px;
-  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 10px 15px 0px #00000033;
   border-radius: 50px;
   margin-left: 32px;
   padding: 14px;
@@ -1649,7 +1649,7 @@ footer span {
   font-size: 30px;
   line-height: 143%;
   color: #000000;
-  background: rgba(5, 108, 34, 0.2039215686);
+  background: #056c2234;
   padding: 0 12px 18px;
   border: none;
   text-align: center;
@@ -1761,7 +1761,7 @@ input:focus, select:focus, textarea:focus {
 }
 .contact-page .container form .input-row input, .contact-page .container form .input-row select {
   background-color: #fff;
-  box-shadow: 0px 7px 19.6px 0px rgba(0, 0, 0, 0.2509803922);
+  box-shadow: 0px 7px 19.6px 0px #00000040;
   border-radius: 30px;
   font-size: 40px;
   font-weight: 600;
@@ -1796,7 +1796,7 @@ input:focus, select:focus, textarea:focus {
 }
 .contact-page .container form textarea {
   background-color: #fff;
-  box-shadow: 0px 7px 19.6px 0px rgba(0, 0, 0, 0.2509803922);
+  box-shadow: 0px 7px 19.6px 0px #00000040;
   border-radius: 30px;
   font-size: 40px;
   font-weight: 600;
@@ -2153,7 +2153,7 @@ input:focus, select:focus, textarea:focus {
   border-color: #380000;
 }
 .contracting-page .news-bar {
-  background: rgba(56, 0, 0, 0.0784313725);
+  background: #38000014;
 }
 .contracting-page .parteners {
   padding: 130px 0 170px;
@@ -2192,7 +2192,7 @@ input:focus, select:focus, textarea:focus {
   border-color: #303030;
 }
 .transport-page .news-bar {
-  background: rgba(48, 48, 48, 0.1803921569);
+  background: #3030302e;
 }
 
 .detergents-page .main-header .container nav a:hover, .detergents-page .our-products-2 .products-2-swipper .swiper-slide .btns button, .detergents-page .main-header .container nav a.active, .detergents-page .show-all, .detergents-page .contact-section form button, .detergents-page .news .news-slider-container .news-card h2 {
@@ -2214,7 +2214,7 @@ input:focus, select:focus, textarea:focus {
   border-color: #92008F;
 }
 .detergents-page .news-bar, .detergents-page .our-products-2 .products-2-swipper .swiper-slide .btns a {
-  background: rgba(146, 0, 144, 0.168627451);
+  background: #9200902b;
 }
 
 .contact-page-body .main-header .container nav a:hover, .contact-page-body .our-products-2 .products-2-swipper .swiper-slide .btns button, .contact-page-body .main-header .container nav a.active, .contact-page-body .show-all, .contact-page-body .contact-section form button, .contact-page-body .news .news-slider-container .news-card h2 {
@@ -2264,7 +2264,7 @@ input:focus, select:focus, textarea:focus {
   border-color: #056C23;
 }
 .manure-page .news-bar, .manure-page .our-products-2 .products-2-swipper .swiper-slide .btns a {
-  background: rgba(5, 108, 34, 0.168627451);
+  background: #056c222b;
 }
 
 #contactWhatsapp {
@@ -2326,7 +2326,7 @@ input:focus, select:focus, textarea:focus {
 .home-page .home-nav {
   padding: 50px;
   border-radius: 40px;
-  box-shadow: 0px 12.55px 31.27px 0px rgba(0, 0, 0, 0.2509803922);
+  box-shadow: 0px 12.55px 31.27px 0px #00000040;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2359,6 +2359,8 @@ input:focus, select:focus, textarea:focus {
     padding: 22px;
     border-radius: 25px;
     flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 .home-page .home-nav a {
